@@ -6,7 +6,7 @@ import { Client } from "./client"
 const Breadcrumb = () => {
 
 
-    return <Suspense fallback={<View />}>
+    return <Suspense fallback={<View pathname={"/"} />}>
         <Client />
     </Suspense>
 }
